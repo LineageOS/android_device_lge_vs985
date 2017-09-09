@@ -45,7 +45,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.g3
+TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.recovery
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_g3
