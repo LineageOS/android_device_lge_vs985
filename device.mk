@@ -40,10 +40,9 @@ PRODUCT_PACKAGES += \
     init.galbi.bt.sh \
     init.galbi.bt_vendor.rc
 
-# RIL
+# Radio
 PRODUCT_PACKAGES += \
-    init.target.rc \
-    ril_shim
+    librmnetctl
 
 # Recovery
 PRODUCT_PACKAGES += \
