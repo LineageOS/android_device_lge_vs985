@@ -44,10 +44,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl
 
-# Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_g3
-
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd_default.conf \
