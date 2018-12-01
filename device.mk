@@ -33,11 +33,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    init.galbi.bt.sh \
-    init.galbi.bt_vendor.rc
-
 # Radio
 PRODUCT_PACKAGES += \
     librmnetctl
