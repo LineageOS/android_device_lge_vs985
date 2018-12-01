@@ -1,1 +1,0 @@
-require version-baseband=35B:2.0.1.C1.13.4-00005
